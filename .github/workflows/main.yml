@@ -1,0 +1,10 @@
+name: CI/CD feature
+
+on:
+    push:
+        branches:
+            - feature
+
+jobs:
+    build-and-push:
+        runs-on: ubuntu-latest
