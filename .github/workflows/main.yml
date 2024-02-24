@@ -3,7 +3,7 @@ name: CI/CD on Feature
 on:
   push:
     branches:
-      - feature
+      - main
 
 jobs:
   build-and-push:
